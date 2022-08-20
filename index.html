@@ -14,6 +14,9 @@
 
 <body>
 
+    <div id='floatTab'>
+    </div>
+
     <div id='header'>
 
         <div id='logo'>
@@ -39,22 +42,34 @@
     <div id='centerBanner'>
 
         <div id='centerMessage'>
-            <span id='mHeader'>Wokecat Help!<hr style='width: 55%'</hr></span>
+            <span id='mHeader'>
+                Wokecat Help!
+                <hr style='width: 55%' </hr>
+            </span>
             <span id='mText'>
-                Having trouble getting a plugin to work or just looking to get started? Choose one of the topics below to access our
+                Having trouble getting a plugin to work or just looking to get started? Choose one of the topics below to access
+                our
                 documentation.
             </span>
         </div>
 
         <div id='searchBar'>
-
+            <div class="search">
+                <button type="submit" class="searchButton">
+                    <div id='icon'>
+                        <img src='img/glass.png' style='width: 85%; height: 85%;'></img>
+                    </div>
+                </button>
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            </div>
         </div>
 
     </div>
 
     <div id='topicPanel'>
 
-        <div id='gStarted' class='topicBox' onclick="window.open('start')">
+        <div id='gStarted' class='topicBox'
+             onclick="window.open('https://outstanding-lantern-62e.notion.site/Wokecat-Help-Page-b45d5e1736804e84a06a2eea6bb4c8f6')">
             Getting Started
         </div>
 

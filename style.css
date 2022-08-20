@@ -82,16 +82,15 @@ body {
 
 #centerBanner {
     width: 90vw;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 4%;
 }
 
 #centerMessage {
-    width: 40%;
+    width: 50%;
     height: 15%;
     display: flex;
     flex-direction: row;
@@ -101,7 +100,7 @@ body {
 }
 
 #mHeader {
-    font-size: 28px;
+    font-size: 40px;
     font-family: Roboto, sans-serif;
     text-align: center;
     letter-spacing: 2px;
@@ -112,10 +111,50 @@ body {
 #mText {
     margin-top: 1%;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
     color: #bfacc9;
+}
+
+html {
+    background-color: black;
+}
+
+#searchBar {
+    display: flex;
+    align-self: end;
+    width: 30%;
+    height: 4.5%;
+    position: absolute;
+    bottom: 61%;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #13a09c;
+    border-left: none;
+    padding: 5px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    color: #2d9f6a;
+}
+
+.searchButton {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #13a09c;
+    border-right: none;
+    background: #1e043f8c;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 #topicPanel {
@@ -126,6 +165,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 .topicBox {
