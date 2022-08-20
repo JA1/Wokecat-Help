@@ -18,22 +18,35 @@ html {
         background: #731994;
     }
 
-
-#header {
-    height: 10vh;
-    width: 80vw;
+body {
+    height: 99vh;
+    width: 99vw;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    position: sticky;
+    justify-content: center;
+    margin: 0;
+    overflow: auto;
+}
+#header {
+    justify-self: center;
+    background-color: #121212;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    border-bottom: 5px;
+    top: 0px;
 }
 
 #logo {
     height: 100%;
-    width: 20%;
     flex: 58%;
+    position: absolute;
+    left: 10%;
 }
 
 #logoImg {
-    width: 77px;
-    height: 87px;
+    width: 70px;
+    height: 80px;
 }
