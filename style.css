@@ -53,7 +53,7 @@ body {
 
 #logoImg {
     width: 77px;
-    height: 87x;
+    height: 87px;
 }
 
 #navBar {
@@ -146,9 +146,9 @@ html {
 }
 
 .searchButton {
-    width: 40px;
+    width: 10%;
     display: flex;
-    align-items: center;
+    align-items: end;
     border: 2px solid #13a09c;
     border-right: none;
     background: #1e043f8c;

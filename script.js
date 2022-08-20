@@ -1,1 +1,3 @@
-// JavaScript source code
+function search(query) {
+    console.log(query);
+}

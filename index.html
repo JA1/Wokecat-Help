@@ -44,7 +44,7 @@
         <div id='centerMessage'>
             <span id='mHeader'>
                 Wokecat Help!
-                <hr style='width: 55%' </hr>
+                <hr style='width: 55%' />
             </span>
             <span id='mText'>
                 Having trouble getting a plugin to work or just looking to get started? Choose one of the topics below to access
@@ -55,12 +55,12 @@
 
         <div id='searchBar'>
             <div class="search">
-                <button type="submit" class="searchButton">
+                <button type="submit" class="searchButton" onclick="search(query.value)">
                     <div id='icon'>
-                        <img src='img/glass.png' style='width: 85%; height: 85%;'></img>
+                        <img src='img/glass.png' style='width: 85%; height: 85%;'>
                     </div>
                 </button>
-                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <input id="query" type="text" class="searchTerm" placeholder="How can we help?">
             </div>
         </div>
 
