@@ -1,5 +1,9 @@
 function search(query) {
-    console.log(query);
+    alert('You have searched for ' + query)
 }
 
-console.log('fuck you');
+document.getElementById('searchTerm').addEventListener('keypress', (e)=> {
+    if (e.key === 'Enter') {
+        search(query.value)
+    }
+})
