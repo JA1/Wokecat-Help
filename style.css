@@ -38,11 +38,20 @@ body {
     overflow: auto;
 }
 
+#overlay {
+    background: linear-gradient(107deg, #4118701a 20%, #0c3a4145 30%, #11444b45 70%, #4118702b 97%);
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    pointer-events: none;
+}
+
 #header {
     height: 10vh;
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
+    element-o
 }
 
 #logo {
@@ -143,6 +152,8 @@ html {
     border-radius: 0px 5px 5px 0px;
     outline: none;
     color: #2d9f6a;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .searchButton {
@@ -153,9 +164,13 @@ html {
     border-right: none;
     background: #1e043f8c;
     border-radius: 5px 0px 0px 5px;
-    cursor: pointer;
     font-size: 20px;
 }
+
+    .searchButton:hover {
+        background-color: #5702a1;
+        cursor: pointer;
+    }
 
 #topicPanel {
     width: 80%;
