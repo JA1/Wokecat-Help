@@ -3,10 +3,6 @@ function listen() {
     el.addEventListener('keydown', (e) => {
         if (e.keyCode === 13) {
             search(query.value)
-            removeEventListener('keydown', (e) => {
-                search(query.value)
-                el.removeEventListener('keydown')
-            })
         }
     })
 }

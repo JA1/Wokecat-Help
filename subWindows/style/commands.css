@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+    scroll-behavior: smooth;
+    height: 2000px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #324d4e;
+    border-radius: 30px;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #731994;
+    }
+
+
+#header {
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+#logo {
+    height: 100%;
+    width: 20%;
+    flex: 58%;
+}
+
+#logoImg {
+    width: 77px;
+    height: 87px;
+}
