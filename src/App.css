@@ -28,6 +28,10 @@ a {
     }
 
 body {
+    margin: 0;
+}
+
+.root {
     background: linear-gradient(17deg, #0c3a4157, 20%, #4118709e 30%, #4118709e 70%, #11444b57 97%);
     height: 100vh;
     width: 100vw;
