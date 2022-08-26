@@ -9,7 +9,7 @@ class App extends React.Component {
         super();
 
         this.state = {
-            page: 'account'
+            page: 'splash'
         };
     }
     
