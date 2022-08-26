@@ -1,0 +1,58 @@
+#container {
+    width: 100vw;
+    background-color: #111111;
+    margin: 0;
+}
+
+#fHeader {
+    background-color: rgb(9, 9, 9);
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+#sidebar {
+    background-color: #111111;
+    width: 20vw;
+    height: 92vh;
+    position: fixed;
+    left: 0px;
+    top: 8vh;
+}
+
+.docContainer   {
+    background-color: #43474A;
+    height: 100%;
+    overflow: visible;
+    width: 45vw;
+    position: absolute;
+    top: 8%;
+    left: 21%;
+}
+
+#docLogo {
+    width: 4%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+}
+
+#cont {
+    height: 100%;
+    width: 100%;
+}
+
+.contents    {
+    padding: 5% 10%;
+    color: rgb(210, 210, 210);
+}
+
+li {
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+}
