@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import App from '/src/App.jsx';
 import Container from './Container';
 import './Frame.css'
