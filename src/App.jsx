@@ -24,7 +24,7 @@ class App extends React.Component {
             : this.state.page == 'account' ? <Frame page='account'/> 
             : this.state.page == 'style' ? <Frame page='style'/> 
             : this.state.page == 'mod' ? <Frame page='mod'/>
-            :  <Frame page='full'/>
+            :  <Frame page='splash'/>
             
         )
     }
